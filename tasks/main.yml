@@ -12,7 +12,7 @@
 
 - name: Install pgbackrest
   package:
-    name: pgbackrest
+    name: "pgbackrest={{ pgbackrest_version }}"
     state: present
   tags: ["install"]
 
