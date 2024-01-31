@@ -2,7 +2,7 @@
 
 postgresql_version: 14
 
-pgbackrest_version: 2.49-*
+pgbackrest_version: 2.50-*
 
 pgbackrest_owner: postgres
 pgbackrest_group: postgres
