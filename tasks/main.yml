@@ -63,8 +63,3 @@
   loop_control:
     loop_var: repo
   when: pgbackrest_services_install | bool
-
-- name: Install check-pgbackrest
-  package:
-    name: "check-pgbackrest"
-    state: latest
